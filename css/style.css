@@ -1,0 +1,141 @@
+body{
+font: 15px/1.5 Arial, Helvetica, sans-serif;
+padding:0;
+margin:0;
+background-color: #544F50;
+}
+
+/*global */
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header ul{
+  margin: 0;
+  padding: 0;
+}
+
+.button_1{
+  height: 38px;
+  background: #F2E6E8;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #544F50;
+}
+
+/*header **/
+header{
+  background: #232123;
+  color: #F2E6E8;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #F24343 3px solid;
+}
+
+header a{
+  color: #F24343;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float: left;
+}
+
+header #branding h1{
+  margin: 0;
+}
+header nav{
+  margin-top: 10px;
+  float: right;
+}
+
+header .highlight, header .current a{
+  color: #F24343;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #F26868;
+  font-weight: bold;
+}
+/*showcase*/
+
+#showcase{
+  min-height: 400px;
+  background:url('../img/showcase1.jpg') no-repeat 0 -1px;
+  text-align: center;
+  color: #F24343;
+  background-attachment: fixed;
+}
+
+#showcase h1{margin-top: 100px;
+font-size: 55px;
+margin-bottom: 10px;
+}
+
+#showcase p{
+  font-size: 20px
+}
+
+
+/*Abonieren*/
+
+#abonieren{
+padding: 5px;
+color: #F24343;
+background: #3D3737;
+}
+
+#Abonieren h1{
+  float: left;
+}
+
+#abonieren form{
+  float: right;
+  margin-bottom: 15px;
+}
+
+#abonieren input[type="email"]{
+  padding:4px;
+  height:25px;
+  width: 250px;
+}
+
+
+/*boxes*/
+#boxes{
+  margin-top: 20px;
+}
+
+#boxes .pic{
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+
+
+#boxes .pic img{
+  width: 300px;
+
+}
+
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #F26868;
+  text-align: center;
+}
